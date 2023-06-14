@@ -1,0 +1,33 @@
+package exceptions;
+
+import java.io.FileNotFoundException;
+import java.io.FileOutputStream;
+import java.io.IOException;
+
+/**
+ * @author razaa
+ * @category checked exceptions
+ */
+public class ExceptionDemo5 {
+	public static void main(String[] args) {
+		FileOutputStream fos = null;
+		try {
+			fos = new FileOutputStream("H://abc.txt");
+		} catch (FileNotFoundException e) {
+			System.out.println(e.getMessage());
+		}
+
+		try {
+			fos.write("tata tata bye byte ...".getBytes());
+		} catch (IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		
+		System.out.println("success");
+	}
+}
+//Unhandled exception type FileNotFoundException
+//Unhandled exception type IOException
+
+

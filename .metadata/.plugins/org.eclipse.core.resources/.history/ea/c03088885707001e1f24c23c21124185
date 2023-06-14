@@ -1,0 +1,14 @@
+package oop.abstraction;
+
+public interface Predator {
+	void hunt();
+}
+
+class Eagle implements Predator {
+
+	@Override
+	public void hunt() {
+		System.out.println("Eage must hunt to survive!");
+	}
+
+}

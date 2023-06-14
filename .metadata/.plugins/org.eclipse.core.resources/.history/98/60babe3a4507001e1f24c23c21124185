@@ -1,0 +1,9 @@
+package oop.abstraction;
+
+public abstract class Vehicle {
+	abstract void drive();
+}
+
+class Bike extends Vehicle {
+
+}

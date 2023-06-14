@@ -1,0 +1,19 @@
+package oop.abstraction;
+
+public class TestInterfaces3 {
+	public static void main(String[] args) {
+		Prey rabbit = new Rabbit();
+		rabbit.flee();
+		
+		
+		Predator eagle = new Eagle();
+		eagle.hunt();
+		
+		Prey smallFish = new Fish();
+		smallFish.flee();
+		
+		Predator bigFish = new Fish();
+		bigFish.hunt();
+		
+	}
+}

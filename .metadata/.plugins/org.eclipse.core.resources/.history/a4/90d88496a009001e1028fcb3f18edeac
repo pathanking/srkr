@@ -1,0 +1,30 @@
+package collections2;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class ArrayListDemo {
+	public static void main(String[] args) {
+		List<StringBuilder> container = new ArrayList<>();
+
+		container.add(new StringBuilder("hello"));
+		container.add(new StringBuilder("helow"));
+		container.add(new StringBuilder("hi"));
+		container.add(new StringBuilder("hey"));
+		container.add(new StringBuilder("hii"));
+		container.add(new StringBuilder("how"));
+		container.add(new StringBuilder("he"));
+		container.add(new StringBuilder("her"));
+		container.add(new StringBuilder("him"));
+
+		System.err.println("---------CONTAINER 1 ELEMENTS -----------");
+		System.out.println(container);
+		container.remove(1);
+		System.out.println(container);
+
+		List<String> container2 = List.of("hi", "how", "you", "me", "say");
+
+		System.err.println("---------CONTAINER 2 ELEMENTS -----------");
+		System.out.println(container2);
+	}
+}

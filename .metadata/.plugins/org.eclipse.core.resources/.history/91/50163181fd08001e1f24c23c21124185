@@ -1,0 +1,18 @@
+package collections;
+
+import java.util.ArrayList;
+
+public class CollectionDemo {
+	public static void main(String[] args) {
+		ArrayList<String> list = new ArrayList<>();
+
+		list.add("hi");
+		list.add("hello");
+		list.add("howdy");
+		list.add("hey");
+		list.add("him");
+		list.add(new String("her"));
+
+		list.forEach(x -> System.out.println(x));
+	}
+}

@@ -1,0 +1,9 @@
+package oop.abstraction;
+
+@FunctionalInterface
+public interface MyFunctionalInterface {
+	public abstract void print();
+
+}
+//Invalid '@FunctionalInterface' annotation; 
+//MyFunctionalInterface is not a functional interface

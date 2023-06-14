@@ -1,0 +1,23 @@
+package oop.abstraction;
+
+public interface MyInterface {
+	public abstract void print();
+}
+
+class X implements MyInterface {
+	@Override
+	public void print() {
+	}
+}
+
+class Y implements MyInterface {
+	@Override
+	public void print() {
+	}
+}
+
+class Z implements MyInterface {
+	@Override
+	public void print() {
+	}
+}

@@ -1,0 +1,28 @@
+package exceptions;
+
+import java.io.FileOutputStream;
+
+/**
+ * @author razaa
+ * @category checked exceptions
+ */
+public class ExceptionDemo5 {
+	public static void main(String[] args) {
+		FileOutputStream fos = null;
+
+		fos = new FileOutputStream("H://abc.txt");
+
+		if (fos != null)
+			fos.write("tata bye bye...".getBytes());
+
+		if (fos != null)
+			fos.close();
+
+		if (fos != null)
+			System.out.println("success");
+		else
+			System.out.println("There was some error in creating a file!");
+	}
+}
+//Unhandled exception type FileNotFoundException
+//Unhandled exception type IOException

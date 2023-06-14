@@ -1,0 +1,15 @@
+package object_oriented.inheritance;
+
+import java.util.Scanner;
+
+public class InputDemo {
+
+	public static void main(String[] args) {
+		var con = System.console();
+		if (con != null) {
+			Scanner scanner = new Scanner(con);
+		}
+
+	}
+
+}

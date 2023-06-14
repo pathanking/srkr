@@ -1,0 +1,24 @@
+package oop.abstraction;
+
+/**
+ * 
+ * @author razaa
+ *
+ */
+@FunctionalInterface
+public interface ZInterface {
+	void bar();
+}
+
+class Impl5 implements ZInterface {
+
+	@Override
+	public void bar() {
+		System.out.println("bar from Impl-5");
+	}
+
+}
+
+class TestFunctionalInterfaces2 {
+	ZInterface obj = new ZInterface();
+}

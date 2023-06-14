@@ -1,0 +1,11 @@
+package constructors;
+
+public class Demo {
+	private Demo() {
+
+	}
+
+	public static void main(String[] args) {
+
+	}
+}

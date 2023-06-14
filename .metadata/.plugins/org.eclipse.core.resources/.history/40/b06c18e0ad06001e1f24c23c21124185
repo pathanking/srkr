@@ -1,0 +1,13 @@
+package constructors;
+
+public class Demo {
+	private Demo() {
+
+	}
+}
+
+class TestConstructor {
+	public static void main(String[] args) {
+
+	}
+}

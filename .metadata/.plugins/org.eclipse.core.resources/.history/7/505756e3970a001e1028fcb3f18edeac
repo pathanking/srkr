@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="windows-1256">
+<title>Add Student</title>
+</head>
+<body>
+	<h1>Welcome to Student Application</h1>
+
+	<form action="">
+		<table border="2px solid black">
+			<tr>
+				<td>Student Id</td>
+				<td><input type="number" name="stdid" placeholder="Enter Student ID"> </td>
+			</tr>
+			<tr>
+				<td></td>
+				<td></td>
+			</tr>
+			<tr>
+				<td></td>
+				<td></td>
+			</tr>
+			<tr>
+				<td></td>
+				<td></td>
+			</tr>
+		</table>
+	</form>
+
+
+</body>
+</html>

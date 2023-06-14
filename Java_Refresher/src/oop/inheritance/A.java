@@ -1,0 +1,10 @@
+package oop.inheritance;
+
+public class A {
+	int x = 10;
+	int y = 20;
+
+	void showA() {
+		System.out.println("showA");
+	}
+}

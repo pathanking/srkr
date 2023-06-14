@@ -1,0 +1,40 @@
+package oop.abstraction;
+
+import java.util.Scanner;
+
+public class TestInterfaces3 {
+	public static void main(String[] args) {
+		/*
+		 * Prey rabbit = new Rabbit(); rabbit.flee();
+		 * 
+		 * Predator eagle = new Eagle(); eagle.hunt();
+		 * 
+		 * Prey smallFish = new Fish(); smallFish.flee();
+		 * 
+		 * Predator bigFish = new Fish(); bigFish.hunt();
+		 */
+		Scanner scanner = new Scanner(System.in);
+		System.out.println("Enter a prey");
+		String choice = scanner.next();
+
+		Prey prey = switch (choice) {
+		case "rabbit", "Rabbit", "RABBIT" -> new Rabbit();
+		case "deer", "Deer", "DEER" -> new Deer();
+		case "fish", "Fish", "FISH" -> new Fish();
+		default -> throw new IllegalArgumentException("Unexpected Prey: " + choice);
+		};
+
+		prey.flee();
+
+		System.out.println("Enter a Predator");
+		String predatorChoice = scanner.next();
+
+		Predator predator = switch (predatorChoice) {
+		case "eagle", "Eagle", "EAGLE" -> new Eagle();
+		case "polarbear", "Polarbear", "POLARBEAR" -> new PolarBear();
+		case "fish", "Fish", "FISH" -> new Fish();
+		default -> throw new IllegalArgumentException("Unexpected Predator: " + predatorChoice);
+		};
+		predator.hunt();
+	}
+}

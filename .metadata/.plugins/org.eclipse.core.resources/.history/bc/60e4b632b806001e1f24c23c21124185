@@ -1,0 +1,12 @@
+package oop.abstraction;
+
+public class TestAbstraction {
+	public static void main(String[] args) {
+		CSEStudent cseStudent = new CSEStudent(112, "varun", "Java");
+
+		cseStudent.study();
+
+		MBBSStudent mbbsStudent = new MBBSStudent(225, "sneha", "Human Anatomy");
+		mbbsStudent.study();
+	}
+}

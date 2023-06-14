@@ -1,0 +1,14 @@
+package constructors;
+
+public class C {
+
+	int x;
+
+	public C(int x) {
+		this.x = x;
+	}
+
+	void print() {
+		System.out.println("x : " + x);
+	}
+}

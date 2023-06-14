@@ -1,0 +1,7 @@
+package constructors;
+
+public class Demo {
+	private Demo() {
+
+	}
+}

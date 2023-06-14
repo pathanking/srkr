@@ -1,0 +1,20 @@
+package oop;
+
+public class StudentTest {
+
+	public static void main(String[] args) {
+		/*
+		 * Student s1 = new Student(); s1.id = 11; s1.name = "sai";
+		 * 
+		 * s1.attendSession(); s1.sitInExams(); s1.showStudentDetails();
+		 */
+
+		Stud stud1 = new Stud();
+
+		stud1.setId(202);
+		stud1.setName("raza");
+		stud1.setEmail("raza@em.com");
+
+		System.out.println(stud1);//object_oriented.Stud@543F98743
+	}
+}

@@ -1,0 +1,12 @@
+package oop.abstraction;
+
+/**
+ * 
+ * @author razaa
+ *
+ */
+@FunctionalInterface
+public interface ZInterface {
+
+	void bar();
+}

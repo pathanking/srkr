@@ -1,0 +1,9 @@
+package oop.inheritance;
+
+public final class MyString {
+
+}
+
+class MyStringChild extends MyString{
+	
+}

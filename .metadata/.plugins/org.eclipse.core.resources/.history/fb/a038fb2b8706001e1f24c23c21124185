@@ -1,0 +1,13 @@
+package object_oriented.inheritance;
+
+public class InputDemo {
+
+	public static void main(String[] args) {
+		var con = System.console();
+		if (con != null) {
+
+		}
+
+	}
+
+}

@@ -1,0 +1,27 @@
+package exceptions;
+
+import java.util.Scanner;
+
+public class ExceptionDemo7 {
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Enter Your Age >>>");
+		int age = sc.nextInt();
+		try {
+			compute(age);
+		} catch (AgeInvalidException e) {
+			System.out.println(e.getMessage());
+			System.out.println(e.getClass().getSimpleName());
+		}
+		finally {
+			System.out.println("finally is used for cleanup purpose");
+		}
+	}
+
+	public static void compute(int age) throws AgeInvalidException {
+		if (age > 18)
+			System.out.println("Welcome to Party _^_");
+		else
+			throw new AgeInvalidException("Minors Not Allowed!!");
+	}
+}

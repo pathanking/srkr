@@ -1,0 +1,20 @@
+package collections2;
+
+import java.util.HashSet;
+import java.util.Set;
+
+public class TreeSetDemo {
+	public static void main(String[] args) {
+		Set set = new HashSet();
+		set.add("hii");
+		set.add("okk");
+		set.add(100);
+		set.add(null);
+		set.add(false);
+		set.add(255.8);
+		set.add(new StringBuilder("hmm"));
+		set.add(new StringBuffer("tbh"));
+
+		System.out.println(set);
+	}
+}

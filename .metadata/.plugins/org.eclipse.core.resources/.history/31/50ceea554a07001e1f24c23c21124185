@@ -1,0 +1,23 @@
+package oop.abstraction;
+
+import java.util.Scanner;
+
+public class TestAbstraction2 {
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+
+		System.out.println("Enter Your Vehicle Choice >>>");
+
+		String choice = sc.next();
+
+		Vehicle vehicle = switch (choice) {
+		case "car", "Car", "CAR" -> new Car();
+		case "bike", "Bike", "BIKE" -> new Bike();
+		case "ev", "EV" -> new EV();
+		default -> throw new IllegalArgumentException("Unexpected value: " + choice);
+		};
+
+		vehicle.drive(); 
+	}
+}

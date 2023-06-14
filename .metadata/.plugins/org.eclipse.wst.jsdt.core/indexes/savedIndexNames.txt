@@ -1,0 +1,8 @@
+INDEX VERSION 1.4+E:\SRKR_\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
+3863656114.index
+3911404550.index
+1680844917.index
+3334788025.index
+3070655856.index
+1780098115.index
+2256161123.index

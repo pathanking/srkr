@@ -1,0 +1,9 @@
+package object_oriented;
+
+public class Stud {
+
+	private int id;
+	private String name;
+	private String email;
+
+}

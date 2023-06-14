@@ -1,0 +1,10 @@
+package object_oriented.inheritance;
+
+public class A {
+	private int x = 10;
+	private int y = 20;
+	
+	void showA() {
+		System.out.println("showA");
+	}
+}

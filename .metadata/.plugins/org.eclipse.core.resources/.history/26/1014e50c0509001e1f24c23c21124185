@@ -1,0 +1,19 @@
+package collections;
+
+import java.util.HashSet;
+import java.util.Set;
+
+public class SetDemo {
+
+	public static void main(String[] args) {
+		Set<String> strings = new HashSet<>();
+		
+		strings.add("hello");
+		strings.add("hello");
+		strings.add("hello");
+		strings.add("how");
+		strings.add("you");
+		
+		System.out.println(strings);
+	}
+}

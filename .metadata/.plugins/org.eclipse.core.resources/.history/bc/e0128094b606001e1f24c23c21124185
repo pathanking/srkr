@@ -1,0 +1,11 @@
+package oop.abstraction;
+
+public class CSEStudent extends Student {
+
+	String subject;
+
+	CSEStudent(int studId, String name) {
+		super(studId, name);
+	}
+
+}

@@ -1,0 +1,25 @@
+package oop.abstraction;
+
+@FunctionalInterface
+public interface MyFunctionalInterface {
+	public abstract void print();
+}
+
+/*
+ * class Impl22 implements MyFunctionalInterface {
+ * 
+ * @Override public void print() { System.out.println("print from Impl-22"); } }
+ */
+
+class TestFunctionalInterfaces {
+	public static void main(String[] args) {
+		MyFunctionalInterface obj = new MyFunctionalInterface() {
+			
+			@Override
+			public void print() {
+				System.out.println("print from an anonymous class");
+			}
+		};
+		obj.print();
+	}
+}

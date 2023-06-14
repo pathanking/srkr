@@ -1,0 +1,14 @@
+package object_oriented.inheritance;
+
+public class VarDemo {
+
+	public static void main(String[] args) {
+		var name = "raza";
+
+		var age = 22;
+
+		System.out.println("Name : " + name);
+
+	}
+
+}

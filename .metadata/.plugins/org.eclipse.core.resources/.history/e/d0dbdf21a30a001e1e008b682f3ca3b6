@@ -1,0 +1,15 @@
+package com.std.app;
+
+import java.io.IOException;
+
+import jakarta.servlet.ServletException;
+import jakarta.servlet.http.HttpServletRequest;
+import jakarta.servlet.http.HttpServletResponse;
+
+@jakarta.servlet.annotation.WebServlet("/StudentAddServlet")
+public class StudentAddServlet extends jakarta.servlet.http.HttpServlet {
+	private static final long serialVersionUID = 1L;
+
+	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+	}
+}

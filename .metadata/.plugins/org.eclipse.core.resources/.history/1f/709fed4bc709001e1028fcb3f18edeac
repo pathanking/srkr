@@ -1,0 +1,11 @@
+package multi_threading;
+
+public class ThreadDemo2 {
+	public static void main(String[] args) {
+		Runnable task1;
+
+		Runnable task2;
+
+	}
+}
+

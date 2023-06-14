@@ -1,0 +1,16 @@
+package object_oriented.inheritance;
+
+public class Parent {
+	int i;
+	int j;
+
+	Parent() {
+		i = 2;
+		j = 5;
+	}
+
+	void print() {
+		System.out.println("i : " + i);
+		System.out.println("j : " + j);
+	}
+}

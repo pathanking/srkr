@@ -1,0 +1,14 @@
+package oop.inheritance;
+
+public class VarDemo {
+
+	public static void main(String[] args) {
+		var name = "raza";
+
+		var age = 22;
+
+		age = 'M';
+
+		System.out.println("Name : " + name);
+	}
+}

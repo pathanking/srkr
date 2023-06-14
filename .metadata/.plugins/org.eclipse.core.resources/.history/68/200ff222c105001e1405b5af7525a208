@@ -1,0 +1,15 @@
+package object_oriented;
+
+public class Student {
+	// fields OR properties OR attributes
+	int id;
+	String name;
+
+	void attendSession() {
+		System.out.println(name + " attends session!");
+	}
+
+	void sitInExams() {
+		System.out.println(name + " will appear in exams!");
+	}
+}

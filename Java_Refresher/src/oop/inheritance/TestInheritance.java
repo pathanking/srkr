@@ -1,0 +1,15 @@
+package oop.inheritance;
+
+public class TestInheritance {
+
+	public static void main(String[] args) {
+		B bObject = new B();
+		System.out.println(bObject.x);
+		System.out.println(bObject.y);
+
+		bObject.showA();
+		
+		System.out.println(bObject.toString());
+	}
+
+}

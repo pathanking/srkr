@@ -1,0 +1,13 @@
+package oop.abstraction;
+
+public class TestInterfaces {
+
+	public static void main(String[] args) {
+		MyInterface myInterface;
+
+		X xx = new X();
+
+		xx.print();
+	}
+
+}

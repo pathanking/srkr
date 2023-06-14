@@ -1,0 +1,22 @@
+package oop.abstraction;
+
+public interface Prey {
+	void flee();
+}
+
+class Rabbit implements Prey {
+
+	@Override
+	public void flee() {
+		System.out.println("Rabbit must flee to survive!");
+	}
+}
+
+class Deer implements Prey {
+
+	@Override
+	public void flee() {
+		System.out.println("Deer must flee to survive!");
+	}
+
+}

@@ -1,0 +1,41 @@
+package collections;
+
+import java.util.ArrayList;
+import java.util.Vector;
+
+public class CollectionDemo {
+	public static void main(String[] args) {
+		ArrayList<String> list = new ArrayList<>();
+
+		list.add("hi");
+		list.add("hello");
+		list.add("howdy");
+		list.add("hey");
+		list.add("him");
+		list.add(new String("her"));
+
+		list.forEach(System.out::println);
+
+		ArrayList<Integer> integers = new ArrayList<>(20);
+		integers.add(100);
+		integers.add(100);
+		integers.add(100);
+		integers.add(100);
+		integers.add(100);
+		integers.add(100);
+
+		integers.forEach(System.out::println);
+
+		Vector<Double> doubles = new Vector<>();
+		doubles.add(200.0);
+		doubles.add(900.0);
+		doubles.add(400.0);
+		doubles.add(500.0);
+		doubles.add(600.0);
+		doubles.add(300.0);
+		doubles.add(100.0);
+
+		doubles.forEach(System.out::println);
+
+	}
+}

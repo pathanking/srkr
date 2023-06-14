@@ -1,0 +1,488 @@
+Java:
+----------
+It's a general purpose programming langauge that majorly used to develop business, mobile, web applications
+
+Features of Java
+------------------------
+Simple
+Platform-Independent
+Object Oriented
+Multi-Thread
+Robust
+Secure
+Distributed
+
+Keywords:
+---------------
+new 	this	super	class	interface	extends		implements	static	void	public		private		protected	if	else	for	while	break	continue	do	int	package		import	try	catch	throw	throws	finally	 final
+float	double	char	long	boolean		default	return 	synchronized	enum	abstract  switch	case	var
+
+int catch = 10; //syntax error
+
+Operators:
+----------------
+Arithmetic Operators +  -  /  %  * 
+Relational Operators <  <=  >  >=  ==  !=
+Logical Operators 	&&	||	!
+Bitwise Operators  & 	|  ^	<<  >>
+Assignemnt Operators = +=  -=  /=  %= *=
+Increment Operator ++
+Decrement Operator --
+Ternary Operator  exp ? STMT1 : STMT2;
+
+Control Flow Statements:
+----------------------------
+Loop Statements:
+	for loop
+	while loop
+	do-while loop
+	foreach loop
+
+
+Conditional Statements:
+	if
+	if-else
+	nested if-else
+	if-elseif
+	switch-case
+
+Arrays in Java:
+---------------------
+-> arrays are a linear data structure in java
+-> stores elements of same data type
+-> index always starts with zero
+-> last index is (size-1)
+-> arrays size is fixed; once size is defined it can't modified
+-> every array in java has a built-in property i.e. length
+-> using length property we can know the size of array
+
+int[] integers = new int[5];
+
+Object Oriented Programming
+----------------------------------
+modularity
+better organization of code
+flexibility
+reuse of code
+data security
+
+Encapsulation:
+ --------------------
+-> bind together data & functionalities in a s ingle unit i.e. a class
+-> encapsulation is achieved using class
+-> main advantage of encapsulation is data security
+-> A class having all fields private and there are public getter/setter methods is known as fully encapsulated class
+
+
+Primitive Data Types:
+---------------------------
+int
+short
+byte
+long
+float
+double
+char
+boolean
+
+-> Java is a static-type(strong-type) programming language
+-> before using a variable, it's must to define its data type
+
+Inheritance:
+-----------------
+->inherit properties/behaviors from superobject into childobject
+->using Inheritance we achieve
+	i. code re-usability
+	ii. runtime polymorphism
+
+Types of Inheritance:
+--------------------------
+1. Single Inheritance
+2. Multi-Level Inheritance
+3. Multiple Inheritance
+4. Hybrid Inheritance
+
+Note: Java does not support multiple inheritance of classes
+Note: Java support multiple inheritance of interfaces
+
+-> Every Java class implicitly extends/inherits from Object class
+-> Non-Private members of a superclass are inherited into childclass
+->Error: The field A.x is not visible
+-> java.lang is known as default package
+
+
+->        https://docs.oracle.com/en/java/javase/20/
+
+constructor:
+------------------
+-> Every Java class has a default constructor if no constructor was written by the programmer
+
+-> constructor name must be the same as classname
+-> must not have any return type, not even void
+-> can be multiple constructors in the same class with different type or number of parameters i.e. constructor overloading
+-> Every constructor either call it's superclass constructor or any of  same class constructors
+-> A constructor calls its superclass constructor using "super()"
+-> A constructor calls its sameclass constructor using "this()"
+-> A constructor is used to initialize an object's instance fields
+-> If a class has a private constructor then it's object can't be created
+
+Error: The constructor Demo() is not visible
+
+Abstraction:
+-------------------
+-> hiding the complexities of application and expose necessary info
+-> achieved using 
+	i. abstract classes
+	ii. interfaces
+
+abstract class:
+-> A class declared with "abstract" keyword
+-> It can have zero or many abstract methods
+-> An abstract method is a method which has no body
+-> An abstract method ends with semicolon
+-> An abstract class looks similar to any normal class 
+   e.g. It can have
+	instance/static fields
+	instance/static methods
+	constructors
+	inner classes
+	instance/static blocks
+
+-> An abstract class can't be instantiated i.e. It's object can't be created
+
+Error: Cannot instantiate the type Vehicle
+Error: Cannot instantiate the type Student
+
+->An abstract class can extend from other abstract class
+->abstract classes generally serve as the superclass in a hierarchy
+->some built-in abstract classes:
+	AbstractCollection
+	AbstractList
+	AbstractSet
+	AbstractMap
+	Reader
+	Writer
+	InputStream
+	OutputStream
+
+interfaces:
+---------------
+-> an interface is a type in Java
+-> it contains method signature i.e. abstract methods
+-> since Java 8, interfaces can contain public default & public static methods
+-> it can have "public static final" fields i.e  constants
+-> it can't have instance fields/methods
+-> it can't have constuctors
+-> it can't be instantiated
+-> it is used to provide common contracts(behaviors) for several unrelated classes
+
+Error: Cannot instantiate the type MyInterface
+Error: Cannot instantiate the type BInterface
+
+-> parent class/interface reference variable can refer to childclass objects
+
+Java built-in interfaces
+-------------------------------
+Collection
+Map
+Serializable
+Cloneable
+Iterable
+Comparable
+
+Marker Interface:
+---------------------
+An interface which has no method is known as marker interface
+e.g. java.io.Serializable
+
+Functional Interface:
+------------------------
+An interface which has exactly one abstract method i.e. Single Abstract Method (SAM) is known as functional interface
+
+Polymorphism:
+------------------
+static(compile-time) polymorphism
+dynamic(runtime) polymorphism
+
+static polymorphism:
+------------------------
+1. method overloading
+2. constructor overloading
+
+method/constructor overloading: define multiple methods/cosntructors with the same name but different number or type of parameters
+
+
+Runtime Polymorphism: runtime polymorphism is achieved by Inheritance + Method Overriding
+
+Method Overriding: Redefining the superclass method into child class is known as method overriding
+
+
+-> final class can't be inherited
+-> final method can't be overridden
+-> final variable can't be modified
+
+
+Exception handling
+---------------------------
+An exception is nothing but an object that represents an abnormal event 
+
+Abnormal Events:
+-------------------
+1. divide by zero 
+2. access an array beyond its index
+3. access a field/method with null reference
+4. casting imcomptible objects
+etc...
+
+try block: contains risky code;that might throw exception object
+
+catch block: contains exception handling logic
+
+throws: used to declare exceptions at method/constructor signature
+
+throw: used to create & throw exceptions explicitly
+
+finally: runs always irrespective of exception was thrown or not
+
+
+->Throwbale class is the root class of all exception classes
+->It has two subclasses
+	1. Exception
+	2. Error
+
+Exception has many subclasses:
+	i. ClassNotFoundException
+	ii. SQLException
+	iii. IOException
+	iv. FileNotFoundException
+	v. InterruptedException
+	vi. RuntimeException
+	etc...
+
+-> RuntimeException has many subclasses
+	a. ArithmeticException
+	b. NullPointerException
+	c. ArrayIndexOutOfBoundsException
+	d. ClassCastException
+	e. IllegalArgumentException
+	f. IllegalStateException
+	g. NumberFormatException
+	etc...
+
+Note: RuntimeException and its subclasses are known as unchecked exceptions
+Note: Error class and its subclasses are also known as unchecked excpetions
+
+Custom OR User-Defined Exceptions
+---------------------------------------
+creating a user-defined exception
+
+Let's create a custom exception:
+
+
+
+System.in => input device(keyboard)
+System.out => output device(console)
+System.err => output device(console)
+
+Collections Framework:
+-----------------------------
+What is a collection in Java?
+-> A collection is a container object that holds other objects
+
+Interfaces:
+----------------
+Collection <<root interface>>
+List
+Set
+Queue
+Deque
+SortedSet
+NavigableSet
+Map
+SortedMap
+NavigableMap
+Enumeration
+Iterator
+ListIterator
+Comparator
+ConcurrentMap
+
+
+Implementations(classes):
+------------------------------
+ArrayList
+LinkedList
+Vector
+Stack
+HashSet
+LinkedHashSet
+TreeSet
+PriorityQueue
+HashMap
+LinkedHashMap
+Hashtable (t is small)
+TreeMap
+
+
+Python list 	->	Java lists
+Python tuple	->	Java immutable Lists
+Python set	->	Java sets
+Python dictionary ->	Java maps
+
+
+Vector					ArrayList
+-------------------------------------------------------------
+synchronized				not synchornized
+suitable for multi-threads      suitable for single-thread
+
+
+
+
+String VS StringBuilder VS StringBuffer
+
+The method add(StringBuilder) in the type List<StringBuilder> is not applicable for the arguments (String)
+
+multi-threads:
+-------------------
+1. extend Thread class
+2. implement Runnable interface <<recommended>>
+
+Thread Lifecycle States
+-------------------------------
+NEW
+RUNNABLE
+RUNNING
+WAITING
+TERMINATED
+
+
+sleep()						wait()
+-------------------------------------------------------------
+Thread	class					Object class
+don't release lock                             releases lock
+
+Executors Framework:
+----------------------------
+
+
+Lambda Expressions:
+----------------------
+-> anonymous function
+-> helps to write functional programming
+-> helps to write short & concise code
+-> A lambda exp is written only for a functional interface
+-> If no functional interface then no lambda
+
+Stream API:
+-----------------------
+DBMS:-It is a software to manage multiple databases
+
+database: set of related data in the form of tables
+
+DDL: Data Definition Language
+-----------------------------------
+CREATE, ALTER, DROP, TRUNCATE, MERGE, RENAME
+
+DML: Data Manipulation Language
+-------------------------------------
+INSERT, UPDATE, DELETE
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

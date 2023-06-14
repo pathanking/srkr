@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="windows-1256">
+<title>Add Student</title>
+</head>
+<body>
+	<h1>Welcome to Student Application</h1>
+
+	<form action="" method="post">
+		<table border="2px solid black">
+			<tr>
+				<td>Student Id</td>
+				<td><input type="number" name="stdid"
+					placeholder="Enter Student ID"></td>
+			</tr>
+			<tr>
+				<td>First Name</td>
+				<td><input type="text" name="firstnm"
+					placeholder="Enter First Name"></td>
+			</tr>
+			<tr>
+				<td>Last Name</td>
+				<td><input type="text" name="lastnm"
+					placeholder="Enter Last Name"></td>
+			</tr>
+			<tr>
+				<td>Email</td>
+				<td><input type="email" name="email"
+					placeholder="Enter Student Email"></td>
+			</tr>
+
+			<tr>
+				<td>
+					<button type="reset">Reset</button>
+				</td>
+				<td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+					<button type="submit">Submit</button>
+				</td>
+			</tr>
+		</table>
+	</form>
+
+
+</body>
+</html>

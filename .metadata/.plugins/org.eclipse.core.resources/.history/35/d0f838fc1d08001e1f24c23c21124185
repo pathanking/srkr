@@ -1,0 +1,24 @@
+package oop.abstraction;
+
+/**
+ * 
+ * @author razaa
+ *
+ */
+@FunctionalInterface
+public interface ZInterface {
+	void bar();
+}
+
+class TestFunctionalInterfaces2 {
+	public static void main(String[] args) {
+		ZInterface obj = new ZInterface() {
+
+			@Override
+			public void bar() {
+				System.out.println("BAR from anonymous class");
+			}
+		};
+		obj.bar();
+	}
+}

@@ -1,0 +1,20 @@
+package exceptions;
+
+import java.util.Scanner;
+
+public class ExceptionDemo2 {
+
+	public static void main(String[] args) {
+		Scanner scanner = new Scanner(System.in);
+		System.out.println("Enter index >>>");
+		int index = scanner.nextInt();
+		int[] ints = { 2, 3, 4, 5, 7 };
+		try {
+			System.out.println(ints[index]); //
+		} catch (ArrayIndexOutOfBoundsException exp) {
+			System.out.println(exp.getMessage());
+		}
+
+		System.out.println("to be continued...");
+	}
+}

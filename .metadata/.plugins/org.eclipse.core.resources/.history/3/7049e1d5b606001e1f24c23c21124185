@@ -1,0 +1,10 @@
+package oop.abstraction;
+
+public class MBBSStudent extends Student{
+
+	String subject;
+	MBBSStudent(int studId, String name) {
+		super(studId, name);
+		// TODO Auto-generated constructor stub
+	}
+}

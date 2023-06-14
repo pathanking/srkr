@@ -1,0 +1,18 @@
+package oop.abstraction;
+
+/**
+ * 
+ * @author razaa
+ *
+ */
+@FunctionalInterface
+public interface ZInterface {
+	void bar();
+}
+
+class TestFunctionalInterfaces2 {
+	public static void main(String[] args) {
+		ZInterface obj = () -> System.out.println("bar from lambda");
+		obj.bar();
+	}
+}

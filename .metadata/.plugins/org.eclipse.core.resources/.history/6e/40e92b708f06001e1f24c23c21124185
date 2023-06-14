@@ -1,0 +1,17 @@
+package object_oriented.inheritance;
+
+public class Parent {
+	//instance fields
+	int i;
+	int j;
+
+	Parent() {  	//parameterless constructor
+		i = 2;
+		j = 5;
+	}
+
+	void print() {		//instance method
+		System.out.println("i : " + i);
+		System.out.println("j : " + j);
+	}
+}

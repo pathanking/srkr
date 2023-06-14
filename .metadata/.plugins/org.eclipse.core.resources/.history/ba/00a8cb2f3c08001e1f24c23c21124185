@@ -1,0 +1,22 @@
+package exceptions;
+
+import java.io.FileOutputStream;
+import java.io.IOException;
+
+/**
+ * @author razaa
+ * @category checked exceptions
+ */
+public class ExceptionDemo5 {
+	public static void main(String[] args) throws IOException {
+		FileOutputStream fos = new FileOutputStream("abc.txt");
+
+		fos.write("tata tata bye byte ...".getBytes());
+		
+		System.out.println("success");
+	}
+}
+//Unhandled exception type FileNotFoundException
+//Unhandled exception type IOException
+
+

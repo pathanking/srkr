@@ -1,0 +1,5 @@
+package oop.abstraction;
+
+public class Impl2 implements BInterface {
+
+}

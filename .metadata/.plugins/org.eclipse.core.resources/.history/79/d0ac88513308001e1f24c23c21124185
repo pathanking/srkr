@@ -1,0 +1,15 @@
+package exceptions;
+
+public class ExceptionDemo2 {
+
+	public static void main(String[] args) {
+		int[] ints = { 2, 3, 4, 5, 7 };
+		try {
+			System.out.println(ints[5]); //
+		} catch (ArrayIndexOutOfBoundsException exp) {
+			System.out.println(exp.getMessage());
+		}
+
+		System.out.println("to be continued...");
+	}
+}

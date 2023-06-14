@@ -1,0 +1,11 @@
+package oop.abstraction;
+
+public class TestAbstraction2 {
+
+	public static void main(String[] args) {
+		Vehicle vehicle = null;
+		
+		vehicle.drive();
+	}
+
+}

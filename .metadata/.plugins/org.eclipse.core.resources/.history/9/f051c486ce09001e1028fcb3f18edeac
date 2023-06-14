@@ -1,0 +1,10 @@
+package functional;
+
+import java.util.function.BiFunction;
+
+public class LambdaDemo {
+	public static void main(String[] args) {
+		BiFunction<String, String, String> biFunction = (s1, s2) -> s1 + "-" + s2;
+
+	}
+}

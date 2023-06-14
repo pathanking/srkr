@@ -1,0 +1,9 @@
+package oop.abstraction;
+
+public interface MyInterface {
+	public abstract void print();
+}
+
+class X implements MyInterface {
+
+}

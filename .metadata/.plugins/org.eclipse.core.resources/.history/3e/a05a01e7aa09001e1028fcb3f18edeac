@@ -1,0 +1,21 @@
+package collections2;
+
+public class TreeSetDemo3 {
+	public static void main(String[] args) {
+
+	}
+}
+
+class Emp {
+	private Integer empId;
+	private String name;
+	private Double salary;
+
+	public Emp(Integer empId, String name, Double salary) {
+		super();
+		this.empId = empId;
+		this.name = name;
+		this.salary = salary;
+	}
+
+}

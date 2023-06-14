@@ -1,0 +1,20 @@
+package constructors;
+
+public class A {
+	
+	int i;
+	int j;
+	
+	public A() {
+		
+	}
+	
+	public A(int i) {
+		
+	}
+	
+	public A(int i, int j) {
+		
+	}
+	
+}

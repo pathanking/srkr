@@ -1,0 +1,15 @@
+package object_oriented.inheritance;
+
+public class Demo {
+	// instance fields | properties
+	int i = 2;
+	int k = 3;
+
+	void print() {
+		System.out.println("print from A");
+		System.out.println("i : " + i);
+		System.out.println("k : " + k);
+
+	}
+
+}

@@ -1,0 +1,7 @@
+package oop.abstraction;
+
+public class TestInterfaces2 {
+	public static void main(String[] args) {
+		BInterface bInterface;
+	}
+}

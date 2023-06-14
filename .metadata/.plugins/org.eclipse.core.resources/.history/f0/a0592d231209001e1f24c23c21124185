@@ -1,0 +1,48 @@
+package collections;
+
+public class SetDemo3 {
+
+}
+
+class Stud {
+	private Integer studId;
+	private String name;
+	private String address;
+
+	public Stud(Integer studId, String name, String address) {
+		super();
+		this.studId = studId;
+		this.name = name;
+		this.address = address;
+	}
+
+	public Integer getStudId() {
+		return studId;
+	}
+
+	public void setStudId(Integer studId) {
+		this.studId = studId;
+	}
+
+	public String getName() {
+		return name;
+	}
+
+	public void setName(String name) {
+		this.name = name;
+	}
+
+	public String getAddress() {
+		return address;
+	}
+
+	public void setAddress(String address) {
+		this.address = address;
+	}
+
+	@Override
+	public String toString() {
+		return "Stud [studId=" + studId + ", name=" + name + ", address=" + address + "]";
+	}
+
+}

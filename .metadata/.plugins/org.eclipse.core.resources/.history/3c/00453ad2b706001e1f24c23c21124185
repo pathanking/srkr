@@ -1,0 +1,7 @@
+package oop.abstraction;
+
+public class TestAbstraction {
+	public static void main(String[] args) {
+		Student student = new Student();
+	}
+}

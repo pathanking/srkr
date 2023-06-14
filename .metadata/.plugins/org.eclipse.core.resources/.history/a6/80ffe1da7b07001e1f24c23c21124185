@@ -1,0 +1,6 @@
+package oop.abstraction;
+
+@FunctionalInterface
+public interface MyFunctionalInterface {
+	public abstract void print();
+}

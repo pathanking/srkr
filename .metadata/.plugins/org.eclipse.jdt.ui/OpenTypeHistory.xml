@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<typeInfoHistroy>
+    <typeInfo handle="=Java_Refresher/C:\/Program Files\/Java\/jdk-20\/lib\/jrt-fs.jar`java.base&lt;java.lang(Object.class[Object" modifiers="33" timestamp="1685707059121"/>
+    <typeInfo handle="=Java_Refresher/C:\/Program Files\/Java\/jdk-20\/lib\/jrt-fs.jar`java.base&lt;java.io(Reader.class[Reader" modifiers="1057" timestamp="1685707059121"/>
+    <typeInfo handle="=Java_Refresher/C:\/Program Files\/Java\/jdk-20\/lib\/jrt-fs.jar`java.base&lt;java.util(ArrayList.class[ArrayList" modifiers="33" timestamp="1685707059121"/>
+    <typeInfo handle="=Java_Refresher/src&lt;oop.abstraction{MBBSStudent.java[MBBSStudent" modifiers="1" timestamp="1686309820828"/>
+    <typeInfo handle="=Java_Refresher/src&lt;oop.abstraction{PharmacyStudent.java[PharmacyStudent" modifiers="1" timestamp="1686309353289"/>
+    <typeInfo handle="=Java_Refresher/C:\/Program Files\/Java\/jdk-20\/lib\/jrt-fs.jar`java.base&lt;java.util(AbstractCollection.class[AbstractCollection" modifiers="1057" timestamp="1685707059121"/>
+    <typeInfo handle="=Java_Refresher/C:\/Program Files\/Java\/jdk-20\/lib\/jrt-fs.jar`java.base&lt;java.util(AbstractList.class[AbstractList" modifiers="1057" timestamp="1685707059121"/>
+    <typeInfo handle="=Java_Refresher/C:\/Program Files\/Java\/jdk-20\/lib\/jrt-fs.jar`java.base&lt;java.util(AbstractSet.class[AbstractSet" modifiers="1057" timestamp="1685707059121"/>
+    <typeInfo handle="=Java_Refresher/C:\/Program Files\/Java\/jdk-20\/lib\/jrt-fs.jar`java.base&lt;java.util(Collection.class[Collection" modifiers="1537" timestamp="1685707059121"/>
+    <typeInfo handle="=Java_Refresher/C:\/Program Files\/Java\/jdk-20\/lib\/jrt-fs.jar`java.base&lt;java.net(UnixDomainSocketAddress$Ser.class[Ser" modifiers="26" timestamp="1685707059121"/>
+    <typeInfo handle="=Java_Refresher/C:\/Program Files\/Java\/jdk-20\/lib\/jrt-fs.jar`java.base&lt;java.io(Serializable.class[Serializable" modifiers="1537" timestamp="1685707059121"/>
+    <typeInfo handle="=Java_Refresher/C:\/Program Files\/Java\/jdk-20\/lib\/jrt-fs.jar`java.base&lt;java.util(Comparator.class[Comparator" modifiers="1537" timestamp="1685707059121"/>
+    <typeInfo handle="=Java_Refresher/C:\/Program Files\/Java\/jdk-20\/lib\/jrt-fs.jar`java.base&lt;java.util.function(Predicate.class[Predicate" modifiers="1537" timestamp="1685707059121"/>
+    <typeInfo handle="=Java_Refresher/C:\/Program Files\/Java\/jdk-20\/lib\/jrt-fs.jar`java.base&lt;java.lang(Cloneable.class[Cloneable" modifiers="1537" timestamp="1685707059121"/>
+    <typeInfo handle="=Java_Refresher/C:\/Program Files\/Java\/jdk-20\/lib\/jrt-fs.jar`java.base&lt;java.util.function(Supplier.class[Supplier" modifiers="1537" timestamp="1685707059121"/>
+    <typeInfo handle="=Java_Refresher/C:\/Program Files\/Java\/jdk-20\/lib\/jrt-fs.jar`java.base&lt;java.io(FileNotFoundException.class[FileNotFoundException" modifiers="33" timestamp="1685707059121"/>
+    <typeInfo handle="=Java_Refresher/C:\/Program Files\/Java\/jdk-20\/lib\/jrt-fs.jar`java.base&lt;java.io(FileOutputStream.class[FileOutputStream" modifiers="33" timestamp="1685707059121"/>
+    <typeInfo handle="=Java_Refresher/C:\/Program Files\/Java\/jdk-20\/lib\/jrt-fs.jar`java.base&lt;java.util(Map.class[Map" modifiers="1537" timestamp="1685707059121"/>
+    <typeInfo handle="=Java_Refresher/C:\/Program Files\/Java\/jdk-20\/lib\/jrt-fs.jar`java.base&lt;java.lang(Integer.class[Integer" modifiers="49" timestamp="1685707059121"/>
+    <typeInfo handle="=Java_Refresher/C:\/Program Files\/Java\/jdk-20\/lib\/jrt-fs.jar`java.base&lt;java.util(TreeSet.class[TreeSet" modifiers="33" timestamp="1685707059121"/>
+    <typeInfo handle="=Java_Refresher/C:\/Program Files\/Java\/jdk-20\/lib\/jrt-fs.jar`java.base&lt;java.lang(String.class[String" modifiers="49" timestamp="1685707059121"/>
+</typeInfoHistroy>

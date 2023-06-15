@@ -388,6 +388,9 @@ Wrapper Classes: (java.lang)
 
 Stream API:
 -----------------------
+
+
+
 DBMS:-It is a software to manage multiple databases
 
 database: set of related data in the form of tables
@@ -399,6 +402,22 @@ CREATE, ALTER, DROP, TRUNCATE, MERGE, RENAME
 DML: Data Manipulation Language
 -------------------------------------
 INSERT, UPDATE, DELETE
+
+Constraints:
+--------------------------------------
+PRIMARY KEY
+NOT NULL 
+UNIQUE
+FOREIGN KEY
+
+
+
+
+
+
+
+
+
 
 
 

@@ -3,7 +3,6 @@ INDEX VERSION 1.132+E:\SRKR_\.metadata\.plugins\org.eclipse.jdt.core
 2786544342.index
 3540086811.index
 502390946.index
-3070655856.index
 2828965542.index
 1272306977.index
 3980748564.index

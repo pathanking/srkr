@@ -373,6 +373,19 @@ Lambda Expressions:
 -> A lambda exp is written only for a functional interface
 -> If no functional interface then no lambda
 
+
+Wrapper Classes: (java.lang)
+--------------------------------
+	Integer
+	Short
+	Byte
+	Long
+	Float
+	Double
+	Boolean
+	Character
+
+
 Stream API:
 -----------------------
 DBMS:-It is a software to manage multiple databases
